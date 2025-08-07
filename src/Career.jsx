@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaRegPaperPlane } from 'react-icons/fa6'
+
 
 
 const Career = () => {
@@ -21,7 +21,7 @@ const Career = () => {
               <li class="border-b border-gray-500 pb-2">Free Web Servers</li>
               <li class="border-b border-gray-500 pb-2">Project File According To Project</li>
             </ul>
-            <div className='rounded bg-orange-500'><button className='px-10 py-2 flex items-center justify-center gap-1.5'><FaRegPaperPlane />ENROLL NOW</button></div>
+            <div className='rounded bg-orange-500'><button className='px-10 py-2 flex items-center justify-center gap-1.5'>ENROLL NOW</button></div>
         </div>
 
         <div className='w-[30vw] h-[80vh] shadow-2xl bg-white text-center rounded-3xl flex flex-col items-center justify-center gap-y-5'>
@@ -35,7 +35,7 @@ const Career = () => {
               <li class="border-b border-gray-500 pb-2">Develop Interpersonal Skills</li>
               <li class="border-b border-gray-500 pb-2">Customized Training Solutions</li>
             </ul>
-          <div className='rounded bg-orange-500'><button className='px-10 py-2 flex items-center justify-center gap-1.5'><FaRegPaperPlane />ENROLL NOW</button></div>
+          <div className='rounded bg-orange-500'><button className='px-10 py-2 flex items-center justify-center gap-1.5'>ENROLL NOW</button></div>
         </div>
         <div className='w-[30vw] h-[80vh] shadow-2xl bg-white text-center rounded-3xl flex flex-col items-center justify-center gap-y-5'></div>
       </div>
