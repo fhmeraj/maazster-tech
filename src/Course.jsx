@@ -5,6 +5,7 @@ import { VscGraph } from "react-icons/vsc";
 import { HiSpeakerphone } from "react-icons/hi";
 import { FaPencil } from "react-icons/fa6";
 import { BsFillCupHotFill } from "react-icons/bs";
+import { Element } from 'react-scroll';
 
 
 
@@ -51,7 +52,7 @@ const coursedata = [
 ]
 
   return (
-    <div id='course' className='w-fill lg:h-[165vh] h-[330vh] bg-[#fef1eb]'>
+    <Element id='course' className='w-fill lg:h-[165vh] h-[330vh] bg-[#fef1eb]'>
       <div className='w-full h-[30vh]  text-center pt-16 space-y-4'>
         <h1 className='text-[30px] text-[#59504D]'>OUR COURSES</h1>
         <h3 className='text-lg text-[#59504D]'>Explore our range of professional offerings designed to boost your skills and career</h3>
@@ -72,7 +73,7 @@ const coursedata = [
       ))}
       </div>
       
-    </div>
+    </Element>
   )
 }
 
