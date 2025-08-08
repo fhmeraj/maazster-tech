@@ -51,7 +51,7 @@ const Homepage = () => {
         <img className='absolute w-[vw] h-[80vh]' src={rightS} /> 
 
         </div>
-      </Element>
+      </div>
 
   )
 }
