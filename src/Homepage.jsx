@@ -6,7 +6,7 @@ import ring from "../src/assets/bg-ring.png";
 import { Element } from 'react-scroll';
 const Homepage = () => {
   return (
-     <Element id='home' className="w-full lg:h-[85vh]  h-full flex lg:flex-row flex-col  lg:gap-0 gap-12  overflow-hidden ">
+     <div id='home' className="w-full lg:h-[85vh]  h-full flex lg:flex-row flex-col  lg:gap-0 gap-12  overflow-hidden ">
         <div className="lg:w-[50%]  w-full h-full text-center text-2xl lg:mt-14  overflow-hidden relative ">
 
           <p className="text-gray-400 mt-10 mb-5">Welcome to our EduLab </p>
