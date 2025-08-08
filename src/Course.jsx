@@ -51,12 +51,12 @@ const coursedata = [
 ]
 
   return (
-    <div className='w-fill h-[165vh] bg-[#fef1eb]'>
+    <div id='course' className='w-fill lg:h-[165vh] h-[330vh] bg-[#fef1eb]'>
       <div className='w-full h-[30vh]  text-center pt-16 space-y-4'>
         <h1 className='text-[30px] text-[#59504D]'>OUR COURSES</h1>
         <h3 className='text-lg text-[#59504D]'>Explore our range of professional offerings designed to boost your skills and career</h3>
       </div>
-      <div className='w-full h-[90vh] flex flex-wrap items-center justify-center  '>
+      <div className='w-full h-[90vh] flex flex-wrap items-center justify-center lg:mt-0 mt-15'>  
 
       {coursedata.map((a)=>(
         <div className='w-[280px] h-[350px]  flex flex-col items-center justify-center rounded-3xl shadow-2xl  hover:scale-110 duration-500 group  hover:bg-orange-500 group-hover:text-white m-3 '>
@@ -65,6 +65,7 @@ const coursedata = [
             <h1 className='text-xl font-extrabold text-blue-500 group-hover:text-white '>{a.title}</h1>
             <p className='text-[15px] text-gray-500 group-hover:text-white mx-4'>{a.description}</p>
           </div>
+          
          
 
         </div>

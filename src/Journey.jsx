@@ -37,12 +37,12 @@ const Journey = () => {
     },
   ]
   return (
-    <div className='w-full h-full'>
+    <div className='w-full lg:h-full  '>
         <div className="w-full h-[27vh] text-center pt-20 space-y-4">
             <h1 className="text-3xl font-semibold">Empowering Your Learning Journey.</h1>
             <h2 className="text-xl font-semibold">Explore the different ways I can help you learn and grow in tech.</h2>
         </div>
-        <div className='w-full h-[100vh] flex items-center justify-center'>
+        <div className='w-full lg:h-[100vh] lg:mt-0 mt-24 flex lg:flex-row flex-col items-center justify-center'>
         {data.map((i)=>(
           <div className=' w-[300px] h-[300px] flex flex-col items-center justify-center m-4 rounded-3xl shadow-2xl  hover:scale-110 duration-500 group  hover:bg-orange-500 group-hover:text-white  '>
 

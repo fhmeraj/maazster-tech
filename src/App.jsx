@@ -1,7 +1,9 @@
+import Banner from "./Banner"
 import Career from "./Career"
 import Course from "./Course"
 import Homepage from "./Homepage"
 import Journey from "./Journey"
+import Lastfot from "./lastfot"
 import NavBar from "./NavBar"
 
 
@@ -15,6 +17,10 @@ function App() {
       <Journey/>
       <Course/>
       <Career/>
+      <Banner/>
+      <Lastfot/>
+      
+      
       
      
 
