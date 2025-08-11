@@ -2,6 +2,7 @@ import React from 'react'
 import logo from "./assets/logo.png"
 import { Link } from 'react-scroll'
 
+
 const NavBar = () => {
   return (
     <div className='w-full h-[15vh] flex items-center  sticky  top-0 z-50  bg-white  rounded-b-2xl  shadow-2xl'>
