@@ -1,12 +1,13 @@
 import React from 'react'
 import { FaPaperPlane } from "react-icons/fa";
+import { Element } from 'react-scroll';
 
 
 
 
 const Career = () => {
   return (
-    <div id='plan' className='w-full lg:h-[140vh] h-full lg:mb-0 mb-7'>
+    <Element id='plan' className='w-full lg:h-[140vh] h-full lg:mb-0 mb-7'>
       <div className='w-full h-[25vh]  flex items-center justify-center'>
         <h1 className='text-black text-3xl font-extrabold'>Choose Your</h1>
         <h1 className='text-orange-500 text-3xl font-extrabold ml-2.5'>Career</h1>
@@ -54,7 +55,7 @@ const Career = () => {
         </div>
       </div>
       
-    </div>
+    </Element>
   )
 }
 
